@@ -19,6 +19,7 @@ namespace Demonia
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            System.Console.WriteLine("eze");
 
             base.Initialize();
         }
