@@ -13,3 +13,8 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Menu.tmx
+/importer:
+/processor:
+/build:Menu.tmx
+
