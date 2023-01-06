@@ -9,7 +9,8 @@ namespace Demonia
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private TiledMap _tiledMap;
-        private TiledMapRenderer _tiledMapRenderer;
+        private TiledMapRenderer _tiledMapRenderer
+        System.Console.WriteLine();
 
         public Game1()
         {
