@@ -9,7 +9,7 @@ namespace Demonia
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private TiledMap _tiledMap;
-        private TiledMapRenderer _tiledMapRenderer
+        private TiledMapRenderer _tiledMapRenderer;
 
         public Game1()
         {
@@ -29,7 +29,7 @@ namespace Demonia
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            _tiledMap = Content.Load<TiledMap>("Menu");
+            _tiledMap = Content.Load<TiledMap>("mapGenerale");
             _tiledMapRenderer = new TiledMapRenderer(GraphicsDevice, _tiledMap);
 
             // TODO: use this.Content to load your game content here
@@ -51,8 +51,8 @@ namespace Demonia
             GraphicsDevice.Clear(Color.CornflowerBlue);
             _tiledMapRenderer.Draw();
             // TODO: Add your drawing code here
-
             base.Draw(gameTime);
+
         }
     }
 }
